@@ -1,0 +1,59 @@
+<!-- === HEADER START === -->
+
+    <div class="container-fluid py-2">
+        <div class="px-5 d-flex align-items-center justify-content-between">
+            <div>
+                <div class="dropdown">
+                    <button class="btn custom-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars fs-4"></i>
+                    </button>
+                    <ul class="dropdown-menu border-0 pe-5">
+                        <li><button class="dropdown-item custom-text-color" type="button">Dashboard</button>
+                        </li>
+                        <li><button class="dropdown-item" type="button">Songs</button></li>
+                        <li><button class="dropdown-item" type="button">Media</button></li>
+                        <li><button class="dropdown-item" type="button">Announcement</button></li>
+                        <li><button class="dropdown-item" type="button">Scriptures</button></li>
+                        <li><button class="dropdown-item" type="button">Presentations</button></li>
+                        <li><button class="dropdown-item" type="button">Users</button></li>
+                        <li><button class="dropdown-item" type="button">Feedback</button></li>
+                        <li><button class="dropdown-item" type="button">Settings</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h5 class="mb-0">Home</h5>
+
+            <a href="#" class="btn d-flex align-items-center">
+                <span class="text-secondary "> Go Back </span> &nbsp; &nbsp;
+                <div class="goBack">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- === HEADER END === -->
+
+    <!-- MAIN CONTENT START -->
+
+    
+    <!-- MAIN CONTENT END -->
+
+    <!-- === FOOTER START === -->
+
+    <nav class="navbar navbar-custom fixed-bottom d-flex justify-content-between align-items-center px-4 pb-4 px-5">
+        <a class="navbar-brand" href="./home.html"><img src="../images/logo-1.png" width="150px"></a>
+        <div class="d-flex align-items-center">
+            <span class="logout fs-5"><a href="../index.html"
+                    class="link-offset-2 link-underline link-underline-opacity-0 text-black">Log out</a></span>
+            <div>
+                <img src="../images/user.webp" width="50px" alt="">
+            </div>
+            <!-- <div class="profile-icon">
+                <i class="fa-solid fa-user-tie fs-4"></i>
+            </div> -->
+        </div>
+    </nav>
+
+    <!-- === FOOTER END === -->

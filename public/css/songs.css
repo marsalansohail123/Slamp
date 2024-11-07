@@ -1,0 +1,30 @@
+.custom-search-input {
+    height: 45px;
+    border: 2px solid #ff4f3e;
+}
+
+.custom-search-input:focus {
+    border: 2px solid #ff4f3e;
+    outline: none;
+    box-shadow: none;
+}
+
+.table {
+    margin-bottom: 200px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    border-collapse: collapse;
+}
+
+.table-body-tr td {
+    color: #757474;
+    font-weight: 500;
+    font-size: 16.5px;
+}
+
+/* Works on Firefox */
+table {
+    scrollbar-width: thin;
+    scrollbar-color: #ff422f rgba(41, 41, 41, 0);
+}
