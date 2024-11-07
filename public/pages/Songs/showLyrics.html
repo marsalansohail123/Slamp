@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slamp - Show Lyrics</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/songs/showLyrics.css">
+    <!-- Styles Global -->
+    <link rel="stylesheet" href="../../css/styles-g.css">
+</head>
+
+<body>
+
+    <!-- === HEADER START === -->
+
+    <div class="container-fluid py-2">
+        <div class=" d-flex align-items-center justify-content-between">
+            <div>
+                <div class="dropdown">
+                    <button class="btn custom-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars fs-4"></i>
+                    </button>
+                    <ul class="dropdown-menu border-0 pe-5">
+                        <li><button class="dropdown-item custom-text-color" type="button">Dashboard</button>
+                        </li>
+                        <li><button class="dropdown-item" type="button">Songs</button></li>
+                        <li><button class="dropdown-item" type="button">Media</button></li>
+                        <li><button class="dropdown-item" type="button">Announcement</button></li>
+                        <li><button class="dropdown-item" type="button">Scriptures</button></li>
+                        <li><button class="dropdown-item" type="button">Presentations</button></li>
+                        <li><button class="dropdown-item" type="button">Users</button></li>
+                        <li><button class="dropdown-item" type="button">Feedback</button></li>
+                        <li><button class="dropdown-item" type="button">Settings</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h5 class="mb-0">Songs</h5>
+
+            <a href="#" class="btn d-flex align-items-center">
+                <span class="text-secondary "> Go Back </span> &nbsp; &nbsp;
+                <div class="goBack">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- === HEADER END === -->
+
+    <!-- MAIN CONTENT START -->
+
+    <div class="container pb-5 mb-5">
+
+        <!-- Search Heading -->
+
+        <div class="pt-5 pb-3 search-show d-flex justify-content-between">
+            <h4 class="custom-text-color">Search Songs</h4>
+            <div>
+                <button class="mx-2 btn text-white rounded fw-medium px-4" style="background-color: black;">Previous
+                    Song</button>
+                <button class="mx-2 btn text-white rounded fw-medium px-5" style="background-color: black;">Next
+                    Song</button>
+            </div>
+        </div>
+
+        <!-- Search -->
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control rounded custom-search-input" placeholder="Search">
+            <button class="mx-2 btn custom-bg-color text-white rounded fw-medium px-5">Search</button>
+        </div>
+
+        <!-- Table -->
+
+        <div class="row">
+            <div class="col-md-2 col-sm-2 col-12">
+                <h4 class="custom-text-color">Lyrics</h4>
+            </div>
+            <div class="col-md-10 col-sm-10 col-12">
+                <!-- Table Container for Right Alignment -->
+                <div class="table-container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Number</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Composer/Author</th>
+                                <th scope="col">Scriptures</th>
+                                <th scope="col">Copyright number (CCLI NUMBER)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-secondary">
+                            <tr>
+                                <td>2</td>
+                                <td>Hallelujah, for the Lord</td>
+                                <td>Composer Name</td>
+                                <td>Scriptures</td>
+                                <td>CCLI NUMBER</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Section -->
+
+        <div class="container-fluid container-custom">
+            <div class="row row-wrap gap-4 flex-nowrap h-100">
+                <!-- Left Panel -->
+                <div class="col-md-3 col-sm-12 col-sm-4 left-panel">
+                    <p>Who gave me saving grace.</p>
+                    <p>Who died in my place Who is the King of Kings.</p>
+                    <p>Nobody but my Lord. Who made the joybells ring.</p>
+                    <p>Who made the angels sing. Who is the King of Kings?</p>
+                    <p>Nobody but my Lord. groupable. Yes, He made the earth.</p>
+                    <p>He made the sea and land. Fashioned it together with His mighty hand. Under His control and His
+                        command.</p>
+                    <p>Nobody but my Lord, groupable.</p>
+                    <p>Who gave me saving grace.</p>
+                    <p>Who died in my place Who is the King of Kings?</p>
+                    <p>Nobody but my Lord.</p>
+                </div>
+
+                <!-- Gap Column -->
+                <!-- <div class="col-md-1 gap-column"></div> -->
+
+                <!-- Right Panel -->
+                <div class="col-md-9 col-sm-12 col-sm-7 right-panel" style="margin-bottom: 200px !important;">
+
+                    <div class="flex-grow-1 pb-5">
+                        <!-- Content -->
+                    </div>
+
+
+                    <!-- Footer -->
+                    <div class="row">
+                        <div class="col-md-8 col-6 text-center">
+                            <div class="d-flex flex-column justify-content-end h-100">
+                                <div class="text-center mb-3"><span class="fw-bold"> 01 /</span> 10</div>
+                                <div>
+                                    <button class="btn btn-dark py-1 px-3">Previous Page</button>
+                                    <button class="btn btn-dark py-1 px-3">Next Page</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6 d-flex flex-column align-items-end gap-2">
+                            <div>
+                                <button class="btn btn-primary py-2 fw-medium"
+                                    style="width: 219px !important; font-size: 12px;">Upload
+                                    Background
+                                    Image</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-danger py-2 fw-medium"
+                                    style="width: 219px !important; font-size: 12px;">Remove Background
+                                    Image</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-secondary fw-medium"
+                                    style="width: 150px !important; font-size: 12px;">Customize Theme</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-dark fw-medium"
+                                    style="width: 150px !important; font-size: 12px;">Blank Screen</button>
+                            </div>
+                            <div>
+                                <button class="btn btn-warning fw-medium"
+                                    style="width: 150px !important; font-size: 12px;">Live Projection</button>
+                            </div>
+                        </div>
+                        <!-- <div class="control-buttons text-center">
+                            <button class="btn btn-primary">Upload Background Image</button>
+                            <button class="btn btn-danger">Remove Background Image</button>
+                            <button class="btn btn-secondary">Customize Theme</button>
+                            <button class="btn btn-dark">Blank Screen</button>
+                            <button class="btn btn-warning">Live Projection</button>
+                            <button class="btn btn-outline-dark">Previous Page</button>
+                            <button class="btn btn-outline-dark">Next Page</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <!-- MAIN CONTENT END -->
+
+    <!-- === FOOTER START === -->
+
+    <nav class="navbar navbar-custom fixed-bottom d-flex justify-content-between align-items-center px-4 pb-4 px-5">
+        <a class="navbar-brand" href="../home.html"><img src="../../images/logo-1.png" width="150px"></a>
+        <div class="d-flex align-items-center">
+            <span class="logout fs-5"><a href="../../index.html"
+                    class="link-offset-2 link-underline link-underline-opacity-0 text-black">Log out</a></span>
+            <div>
+                <img src="../../images/user.webp" width="50px" alt="">
+            </div> -->
+            <!-- <div class="profile-icon">
+            <i class="fa-solid fa-user-tie fs-4"></i>
+        </div> -->
+            <!-- </div>
+    </nav>
+
+    <!-- === FOOTER END === -->
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -21,6 +21,13 @@
     color: #757474;
     font-weight: 500;
     font-size: 16.5px;
+    padding: 15px;
+    background-clip: padding-box;
+}
+
+table tr:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.548);
+    /* Set border for all rows except the last one */
 }
 
 /* Works on Firefox */
